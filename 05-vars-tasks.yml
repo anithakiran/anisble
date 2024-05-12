@@ -1,6 +1,6 @@
 - name : variables
   hosts : localhost
-  vars : #variables declaration
+  vars : # play-level variables declaration
     Course : "Devops"
     Trainer : "Siva"
     Duration : "120hrs"
@@ -9,7 +9,7 @@
       ansible.builtin.debug:
         msg : "Hi, We are learning {{Course}} from Trainer {{Trainer}} Duration is {{Duration}}."
     - name : print override information
-      vars : #variables declaration
+      vars : #task level variables declaration
         Course : "Terraform"
         Trainer : "Siva"
         Duration : "15hrs"
