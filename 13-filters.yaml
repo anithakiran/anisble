@@ -47,7 +47,7 @@
     my_dict :
       course : ansible
       trainer : myself
-     duration : 120 hrs
+      duration : 120 hrs
   tasks : 
   - name : before converting
     ansible.builtin.debug:
