@@ -4,3 +4,9 @@
     - name : pining the server
       ansible.builtin.ping:
         
+
+- name : ping the server
+  hosts : web
+  tasks :
+    - name :  checking with ping cmd 
+      ansible.builtin.ping:
