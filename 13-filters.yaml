@@ -60,9 +60,9 @@
   hosts : localhost
   vars :
     my_list
-    -{key: course,value: ansible}
-    -{key: trainer,value: siva}
-    -{key: duration,value: 120hrs}
+    - {'key': 'Course', 'value': 'Ansbile'}
+    - {'key': 'Trainer', 'value': 'Sivakumar'}
+    - {'key': 'Duration', 'value': '120hr'}
   tasks : 
   - name : before converting
     ansible.builtin.debug:
