@@ -1,6 +1,6 @@
 - name: demo on loops
   hosts: localhost
-  task: 
+  tasks: 
   - name: print names
     ansible.builtin.debug:
      msg  "HEllo {{item}}"
