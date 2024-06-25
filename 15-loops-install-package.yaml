@@ -1,5 +1,6 @@
 - name : install packages
-  hosts : localhost
+  hosts : web
+  become : yes
   tasks : 
   - name : install package
     ansible.builtin.dnf:
@@ -9,4 +10,3 @@
     - mysql
     - nginx
     - postfix
-    
