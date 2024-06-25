@@ -59,7 +59,7 @@
 - name : converting item to dictionry
   hosts : localhost
   vars :
-    my_list
+    my_list :
     - {'key': 'Course', 'value': 'Ansbile'}
     - {'key': 'Trainer', 'value': 'Sivakumar'}
     - {'key': 'Duration', 'value': '120hr'}
