@@ -1,5 +1,5 @@
 - name : tags exaple
-   hosts : localhost
+  hosts : localhost
   tasks : 
   - name : Hello tag example
     debug : 
