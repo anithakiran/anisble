@@ -1,18 +1,18 @@
-name : tags exaple
-hosts : localhost
-tasks : 
-- name : Hello tag example
-  debug : 
-   msg : "Hello......!"
-  tags : 
-  - hello
+- name : tags exaple
+ hosts : localhost
+ tasks : 
+ - name : Hello tag example
+   debug : 
+    msg : "Hello......!"
+   tags : 
+   - hello
 
-- name : No tag example
-  debug : 
-   msg : "How are you"
+ - name : No tag example
+   debug : 
+    msg : "How are you"
 
-- name : Goodbye tag exaple
-  debug : 
-   msg : "Goodbye......!"
-  tags : 
-  - goodbye
+ - name : Goodbye tag exaple
+   debug : 
+    msg : "Goodbye......!"
+   tags : 
+   - goodbye
