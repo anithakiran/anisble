@@ -16,3 +16,16 @@
      msg : "Goodbye......!"
     tags : 
     - goodbye
+  
+  - name : Always runs
+    debug :
+     msg : "Always runs"
+    tags : 
+    - always
+ 
+  - name : runs when specified"
+    debug : 
+     msg : "runs when you use tags"
+    tags : 
+    - tag1
+    
